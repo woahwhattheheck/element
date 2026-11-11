@@ -4,6 +4,7 @@ on: pull_request
 
 jobs:
   build:
+    if: "${{ (false) && (true) }}"
     name: Build
     runs-on: ubuntu-latest
     env:
